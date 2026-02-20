@@ -1,0 +1,241 @@
+{
+  "sla_seconds": 180.0,
+  "task_count": 20,
+  "raysurfer": {
+    "label": "raysurfer",
+    "overall_consistency": 1.0,
+    "total_attempts": 20,
+    "total_completed": 20,
+    "total_completed_within_sla": 20
+  },
+  "per_task": {
+    "HE-000": {
+      "benchmark": "humaneval",
+      "source_task_id": "HumanEval/0",
+      "raysurfer_consistency": 1.0,
+      "raysurfer_attempts": 1,
+      "raysurfer_within_sla": 1,
+      "baseline_consistency": 0.0,
+      "baseline_attempts": 1,
+      "baseline_within_sla": 0,
+      "delta": 1.0
+    },
+    "HE-001": {
+      "benchmark": "humaneval",
+      "source_task_id": "HumanEval/1",
+      "raysurfer_consistency": 1.0,
+      "raysurfer_attempts": 1,
+      "raysurfer_within_sla": 1,
+      "baseline_consistency": 0.0,
+      "baseline_attempts": 1,
+      "baseline_within_sla": 0,
+      "delta": 1.0
+    },
+    "HE-002": {
+      "benchmark": "humaneval",
+      "source_task_id": "HumanEval/2",
+      "raysurfer_consistency": 1.0,
+      "raysurfer_attempts": 1,
+      "raysurfer_within_sla": 1,
+      "baseline_consistency": 0.0,
+      "baseline_attempts": 1,
+      "baseline_within_sla": 0,
+      "delta": 1.0
+    },
+    "HE-003": {
+      "benchmark": "humaneval",
+      "source_task_id": "HumanEval/3",
+      "raysurfer_consistency": 1.0,
+      "raysurfer_attempts": 1,
+      "raysurfer_within_sla": 1,
+      "baseline_consistency": 0.0,
+      "baseline_attempts": 1,
+      "baseline_within_sla": 0,
+      "delta": 1.0
+    },
+    "HE-004": {
+      "benchmark": "humaneval",
+      "source_task_id": "HumanEval/4",
+      "raysurfer_consistency": 1.0,
+      "raysurfer_attempts": 1,
+      "raysurfer_within_sla": 1,
+      "baseline_consistency": 0.0,
+      "baseline_attempts": 1,
+      "baseline_within_sla": 0,
+      "delta": 1.0
+    },
+    "HE-005": {
+      "benchmark": "humaneval",
+      "source_task_id": "HumanEval/5",
+      "raysurfer_consistency": 1.0,
+      "raysurfer_attempts": 1,
+      "raysurfer_within_sla": 1,
+      "baseline_consistency": 0.0,
+      "baseline_attempts": 1,
+      "baseline_within_sla": 0,
+      "delta": 1.0
+    },
+    "HE-006": {
+      "benchmark": "humaneval",
+      "source_task_id": "HumanEval/6",
+      "raysurfer_consistency": 1.0,
+      "raysurfer_attempts": 1,
+      "raysurfer_within_sla": 1,
+      "baseline_consistency": 0.0,
+      "baseline_attempts": 1,
+      "baseline_within_sla": 0,
+      "delta": 1.0
+    },
+    "HE-007": {
+      "benchmark": "humaneval",
+      "source_task_id": "HumanEval/7",
+      "raysurfer_consistency": 1.0,
+      "raysurfer_attempts": 1,
+      "raysurfer_within_sla": 1,
+      "baseline_consistency": 0.0,
+      "baseline_attempts": 1,
+      "baseline_within_sla": 0,
+      "delta": 1.0
+    },
+    "HE-008": {
+      "benchmark": "humaneval",
+      "source_task_id": "HumanEval/8",
+      "raysurfer_consistency": 1.0,
+      "raysurfer_attempts": 1,
+      "raysurfer_within_sla": 1,
+      "baseline_consistency": 0.0,
+      "baseline_attempts": 1,
+      "baseline_within_sla": 0,
+      "delta": 1.0
+    },
+    "HE-009": {
+      "benchmark": "humaneval",
+      "source_task_id": "HumanEval/9",
+      "raysurfer_consistency": 1.0,
+      "raysurfer_attempts": 1,
+      "raysurfer_within_sla": 1,
+      "baseline_consistency": 0.0,
+      "baseline_attempts": 1,
+      "baseline_within_sla": 0,
+      "delta": 1.0
+    },
+    "MB-000": {
+      "benchmark": "mbpp",
+      "source_task_id": "MBPP/1",
+      "raysurfer_consistency": 1.0,
+      "raysurfer_attempts": 1,
+      "raysurfer_within_sla": 1,
+      "baseline_consistency": 0.0,
+      "baseline_attempts": 1,
+      "baseline_within_sla": 0,
+      "delta": 1.0
+    },
+    "MB-001": {
+      "benchmark": "mbpp",
+      "source_task_id": "MBPP/2",
+      "raysurfer_consistency": 1.0,
+      "raysurfer_attempts": 1,
+      "raysurfer_within_sla": 1,
+      "baseline_consistency": 0.0,
+      "baseline_attempts": 1,
+      "baseline_within_sla": 0,
+      "delta": 1.0
+    },
+    "MB-002": {
+      "benchmark": "mbpp",
+      "source_task_id": "MBPP/3",
+      "raysurfer_consistency": 1.0,
+      "raysurfer_attempts": 1,
+      "raysurfer_within_sla": 1,
+      "baseline_consistency": 0.0,
+      "baseline_attempts": 1,
+      "baseline_within_sla": 0,
+      "delta": 1.0
+    },
+    "MB-003": {
+      "benchmark": "mbpp",
+      "source_task_id": "MBPP/4",
+      "raysurfer_consistency": 1.0,
+      "raysurfer_attempts": 1,
+      "raysurfer_within_sla": 1,
+      "baseline_consistency": 0.0,
+      "baseline_attempts": 1,
+      "baseline_within_sla": 0,
+      "delta": 1.0
+    },
+    "MB-004": {
+      "benchmark": "mbpp",
+      "source_task_id": "MBPP/5",
+      "raysurfer_consistency": 1.0,
+      "raysurfer_attempts": 1,
+      "raysurfer_within_sla": 1,
+      "baseline_consistency": 0.0,
+      "baseline_attempts": 1,
+      "baseline_within_sla": 0,
+      "delta": 1.0
+    },
+    "MB-005": {
+      "benchmark": "mbpp",
+      "source_task_id": "MBPP/6",
+      "raysurfer_consistency": 1.0,
+      "raysurfer_attempts": 1,
+      "raysurfer_within_sla": 1,
+      "baseline_consistency": 0.0,
+      "baseline_attempts": 1,
+      "baseline_within_sla": 0,
+      "delta": 1.0
+    },
+    "MB-006": {
+      "benchmark": "mbpp",
+      "source_task_id": "MBPP/7",
+      "raysurfer_consistency": 1.0,
+      "raysurfer_attempts": 1,
+      "raysurfer_within_sla": 1,
+      "baseline_consistency": 0.0,
+      "baseline_attempts": 1,
+      "baseline_within_sla": 0,
+      "delta": 1.0
+    },
+    "MB-007": {
+      "benchmark": "mbpp",
+      "source_task_id": "MBPP/8",
+      "raysurfer_consistency": 1.0,
+      "raysurfer_attempts": 1,
+      "raysurfer_within_sla": 1,
+      "baseline_consistency": 0.0,
+      "baseline_attempts": 1,
+      "baseline_within_sla": 0,
+      "delta": 1.0
+    },
+    "MB-008": {
+      "benchmark": "mbpp",
+      "source_task_id": "MBPP/9",
+      "raysurfer_consistency": 1.0,
+      "raysurfer_attempts": 1,
+      "raysurfer_within_sla": 1,
+      "baseline_consistency": 0.0,
+      "baseline_attempts": 1,
+      "baseline_within_sla": 0,
+      "delta": 1.0
+    },
+    "MB-009": {
+      "benchmark": "mbpp",
+      "source_task_id": "MBPP/10",
+      "raysurfer_consistency": 1.0,
+      "raysurfer_attempts": 1,
+      "raysurfer_within_sla": 1,
+      "baseline_consistency": 0.0,
+      "baseline_attempts": 1,
+      "baseline_within_sla": 0,
+      "delta": 1.0
+    }
+  },
+  "baseline": {
+    "label": "baseline",
+    "overall_consistency": 0.0,
+    "total_attempts": 20,
+    "total_completed": 0,
+    "total_completed_within_sla": 0,
+    "delta": 1.0
+  }
+}

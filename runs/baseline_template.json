@@ -1,0 +1,14 @@
+{
+  "label": "baseline",
+  "notes": "Replace with real baseline trial outcomes.",
+  "runs": [
+    {
+      "task_id": "HE-000",
+      "trial": 1,
+      "completed": false,
+      "elapsed_seconds": 180.0,
+      "timestamp_utc": "2026-02-20T00:00:00Z",
+      "details": "status=timeout"
+    }
+  ]
+}

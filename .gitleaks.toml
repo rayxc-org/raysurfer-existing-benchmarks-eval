@@ -1,0 +1,7 @@
+title = "Raysurfer Existing Benchmarks Eval Gitleaks Config"
+
+[allowlist]
+description = "Allow generated benchmark summaries only"
+paths = [
+  "^runs/.*_summary\\.json$"
+]

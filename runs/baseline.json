@@ -1,0 +1,166 @@
+{
+  "label": "baseline",
+  "notes": "mode=baseline;model=haiku;max_turns=4;timeout_seconds=180.0;validation_timeout_seconds=20.0;raysurfer_source=reference;date=2026-02-20T05:20:14Z",
+  "runs": [
+    {
+      "task_id": "HE-000",
+      "trial": 1,
+      "completed": false,
+      "elapsed_seconds": 6.084,
+      "timestamp_utc": "2026-02-20T05:15:28Z",
+      "details": "status=success;metric=2;validation=missing_solution_py_file;benchmark=humaneval"
+    },
+    {
+      "task_id": "HE-001",
+      "trial": 1,
+      "completed": false,
+      "elapsed_seconds": 7.82,
+      "timestamp_utc": "2026-02-20T05:15:36Z",
+      "details": "status=success;metric=3;validation=missing_solution_py_file;benchmark=humaneval"
+    },
+    {
+      "task_id": "HE-002",
+      "trial": 1,
+      "completed": false,
+      "elapsed_seconds": 6.126,
+      "timestamp_utc": "2026-02-20T05:15:42Z",
+      "details": "status=success;metric=3;validation=missing_solution_py_file;benchmark=humaneval"
+    },
+    {
+      "task_id": "HE-003",
+      "trial": 1,
+      "completed": false,
+      "elapsed_seconds": 7.394,
+      "timestamp_utc": "2026-02-20T05:15:50Z",
+      "details": "status=error_max_turns;metric=4;validation=missing_solution_py_file;benchmark=humaneval"
+    },
+    {
+      "task_id": "HE-004",
+      "trial": 1,
+      "completed": false,
+      "elapsed_seconds": 5.642,
+      "timestamp_utc": "2026-02-20T05:15:55Z",
+      "details": "status=success;metric=3;validation=missing_solution_py_file;benchmark=humaneval"
+    },
+    {
+      "task_id": "HE-005",
+      "trial": 1,
+      "completed": false,
+      "elapsed_seconds": 7.338,
+      "timestamp_utc": "2026-02-20T05:16:03Z",
+      "details": "status=error_max_turns;metric=4;validation=missing_solution_py_file;benchmark=humaneval"
+    },
+    {
+      "task_id": "HE-006",
+      "trial": 1,
+      "completed": false,
+      "elapsed_seconds": 15.457,
+      "timestamp_utc": "2026-02-20T05:16:18Z",
+      "details": "status=success;metric=3;validation=missing_solution_py_file;benchmark=humaneval"
+    },
+    {
+      "task_id": "HE-007",
+      "trial": 1,
+      "completed": false,
+      "elapsed_seconds": 6.253,
+      "timestamp_utc": "2026-02-20T05:16:24Z",
+      "details": "status=error_max_turns;metric=4;validation=missing_solution_py_file;benchmark=humaneval"
+    },
+    {
+      "task_id": "HE-008",
+      "trial": 1,
+      "completed": false,
+      "elapsed_seconds": 142.055,
+      "timestamp_utc": "2026-02-20T05:18:46Z",
+      "details": "status=error_max_turns;metric=4;validation=missing_solution_py_file;benchmark=humaneval"
+    },
+    {
+      "task_id": "HE-009",
+      "trial": 1,
+      "completed": false,
+      "elapsed_seconds": 7.402,
+      "timestamp_utc": "2026-02-20T05:18:54Z",
+      "details": "status=success;metric=3;validation=missing_solution_py_file;benchmark=humaneval"
+    },
+    {
+      "task_id": "MB-000",
+      "trial": 1,
+      "completed": false,
+      "elapsed_seconds": 8.705,
+      "timestamp_utc": "2026-02-20T05:19:03Z",
+      "details": "status=success;metric=3;validation=missing_solution_py_file;benchmark=mbpp"
+    },
+    {
+      "task_id": "MB-001",
+      "trial": 1,
+      "completed": false,
+      "elapsed_seconds": 7.473,
+      "timestamp_utc": "2026-02-20T05:19:10Z",
+      "details": "status=error_max_turns;metric=4;validation=missing_solution_py_file;benchmark=mbpp"
+    },
+    {
+      "task_id": "MB-002",
+      "trial": 1,
+      "completed": false,
+      "elapsed_seconds": 6.858,
+      "timestamp_utc": "2026-02-20T05:19:17Z",
+      "details": "status=success;metric=3;validation=missing_solution_py_file;benchmark=mbpp"
+    },
+    {
+      "task_id": "MB-003",
+      "trial": 1,
+      "completed": false,
+      "elapsed_seconds": 8.935,
+      "timestamp_utc": "2026-02-20T05:19:26Z",
+      "details": "status=error_max_turns;metric=4;validation=missing_solution_py_file;benchmark=mbpp"
+    },
+    {
+      "task_id": "MB-004",
+      "trial": 1,
+      "completed": false,
+      "elapsed_seconds": 15.117,
+      "timestamp_utc": "2026-02-20T05:19:41Z",
+      "details": "status=error_max_turns;metric=4;validation=missing_solution_py_file;benchmark=mbpp"
+    },
+    {
+      "task_id": "MB-005",
+      "trial": 1,
+      "completed": false,
+      "elapsed_seconds": 7.87,
+      "timestamp_utc": "2026-02-20T05:19:49Z",
+      "details": "status=error_max_turns;metric=4;validation=missing_solution_py_file;benchmark=mbpp"
+    },
+    {
+      "task_id": "MB-006",
+      "trial": 1,
+      "completed": false,
+      "elapsed_seconds": 6.19,
+      "timestamp_utc": "2026-02-20T05:19:55Z",
+      "details": "status=success;metric=3;validation=missing_solution_py_file;benchmark=mbpp"
+    },
+    {
+      "task_id": "MB-007",
+      "trial": 1,
+      "completed": false,
+      "elapsed_seconds": 6.199,
+      "timestamp_utc": "2026-02-20T05:20:01Z",
+      "details": "status=error_max_turns;metric=4;validation=missing_solution_py_file;benchmark=mbpp"
+    },
+    {
+      "task_id": "MB-008",
+      "trial": 1,
+      "completed": false,
+      "elapsed_seconds": 6.413,
+      "timestamp_utc": "2026-02-20T05:20:08Z",
+      "details": "status=success;metric=3;validation=missing_solution_py_file;benchmark=mbpp"
+    },
+    {
+      "task_id": "MB-009",
+      "trial": 1,
+      "completed": false,
+      "elapsed_seconds": 5.941,
+      "timestamp_utc": "2026-02-20T05:20:14Z",
+      "details": "status=success;metric=3;validation=missing_solution_py_file;benchmark=mbpp"
+    }
+  ]
+}

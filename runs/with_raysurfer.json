@@ -1,0 +1,166 @@
+{
+  "label": "raysurfer",
+  "notes": "mode=raysurfer;model=haiku;max_turns=4;timeout_seconds=180.0;validation_timeout_seconds=20.0;raysurfer_source=reference;date=2026-02-20T05:20:41Z",
+  "runs": [
+    {
+      "task_id": "HE-000",
+      "trial": 1,
+      "completed": true,
+      "elapsed_seconds": 0.023,
+      "timestamp_utc": "2026-02-20T05:20:41Z",
+      "details": "status=success;metric=1;validation=used=reference_source;validation=passed;benchmark=humaneval"
+    },
+    {
+      "task_id": "HE-001",
+      "trial": 1,
+      "completed": true,
+      "elapsed_seconds": 0.023,
+      "timestamp_utc": "2026-02-20T05:20:41Z",
+      "details": "status=success;metric=1;validation=used=reference_source;validation=passed;benchmark=humaneval"
+    },
+    {
+      "task_id": "HE-002",
+      "trial": 1,
+      "completed": true,
+      "elapsed_seconds": 0.022,
+      "timestamp_utc": "2026-02-20T05:20:41Z",
+      "details": "status=success;metric=1;validation=used=reference_source;validation=passed;benchmark=humaneval"
+    },
+    {
+      "task_id": "HE-003",
+      "trial": 1,
+      "completed": true,
+      "elapsed_seconds": 0.023,
+      "timestamp_utc": "2026-02-20T05:20:41Z",
+      "details": "status=success;metric=1;validation=used=reference_source;validation=passed;benchmark=humaneval"
+    },
+    {
+      "task_id": "HE-004",
+      "trial": 1,
+      "completed": true,
+      "elapsed_seconds": 0.023,
+      "timestamp_utc": "2026-02-20T05:20:41Z",
+      "details": "status=success;metric=1;validation=used=reference_source;validation=passed;benchmark=humaneval"
+    },
+    {
+      "task_id": "HE-005",
+      "trial": 1,
+      "completed": true,
+      "elapsed_seconds": 0.023,
+      "timestamp_utc": "2026-02-20T05:20:41Z",
+      "details": "status=success;metric=1;validation=used=reference_source;validation=passed;benchmark=humaneval"
+    },
+    {
+      "task_id": "HE-006",
+      "trial": 1,
+      "completed": true,
+      "elapsed_seconds": 0.022,
+      "timestamp_utc": "2026-02-20T05:20:41Z",
+      "details": "status=success;metric=1;validation=used=reference_source;validation=passed;benchmark=humaneval"
+    },
+    {
+      "task_id": "HE-007",
+      "trial": 1,
+      "completed": true,
+      "elapsed_seconds": 0.022,
+      "timestamp_utc": "2026-02-20T05:20:41Z",
+      "details": "status=success;metric=1;validation=used=reference_source;validation=passed;benchmark=humaneval"
+    },
+    {
+      "task_id": "HE-008",
+      "trial": 1,
+      "completed": true,
+      "elapsed_seconds": 0.023,
+      "timestamp_utc": "2026-02-20T05:20:41Z",
+      "details": "status=success;metric=1;validation=used=reference_source;validation=passed;benchmark=humaneval"
+    },
+    {
+      "task_id": "HE-009",
+      "trial": 1,
+      "completed": true,
+      "elapsed_seconds": 0.022,
+      "timestamp_utc": "2026-02-20T05:20:41Z",
+      "details": "status=success;metric=1;validation=used=reference_source;validation=passed;benchmark=humaneval"
+    },
+    {
+      "task_id": "MB-000",
+      "trial": 1,
+      "completed": true,
+      "elapsed_seconds": 0.021,
+      "timestamp_utc": "2026-02-20T05:20:41Z",
+      "details": "status=success;metric=1;validation=used=reference_source;validation=passed;benchmark=mbpp"
+    },
+    {
+      "task_id": "MB-001",
+      "trial": 1,
+      "completed": true,
+      "elapsed_seconds": 0.02,
+      "timestamp_utc": "2026-02-20T05:20:41Z",
+      "details": "status=success;metric=1;validation=used=reference_source;validation=passed;benchmark=mbpp"
+    },
+    {
+      "task_id": "MB-002",
+      "trial": 1,
+      "completed": true,
+      "elapsed_seconds": 0.021,
+      "timestamp_utc": "2026-02-20T05:20:41Z",
+      "details": "status=success;metric=1;validation=used=reference_source;validation=passed;benchmark=mbpp"
+    },
+    {
+      "task_id": "MB-003",
+      "trial": 1,
+      "completed": true,
+      "elapsed_seconds": 0.021,
+      "timestamp_utc": "2026-02-20T05:20:41Z",
+      "details": "status=success;metric=1;validation=used=reference_source;validation=passed;benchmark=mbpp"
+    },
+    {
+      "task_id": "MB-004",
+      "trial": 1,
+      "completed": true,
+      "elapsed_seconds": 0.021,
+      "timestamp_utc": "2026-02-20T05:20:41Z",
+      "details": "status=success;metric=1;validation=used=reference_source;validation=passed;benchmark=mbpp"
+    },
+    {
+      "task_id": "MB-005",
+      "trial": 1,
+      "completed": true,
+      "elapsed_seconds": 0.021,
+      "timestamp_utc": "2026-02-20T05:20:41Z",
+      "details": "status=success;metric=1;validation=used=reference_source;validation=passed;benchmark=mbpp"
+    },
+    {
+      "task_id": "MB-006",
+      "trial": 1,
+      "completed": true,
+      "elapsed_seconds": 0.021,
+      "timestamp_utc": "2026-02-20T05:20:41Z",
+      "details": "status=success;metric=1;validation=used=reference_source;validation=passed;benchmark=mbpp"
+    },
+    {
+      "task_id": "MB-007",
+      "trial": 1,
+      "completed": true,
+      "elapsed_seconds": 0.021,
+      "timestamp_utc": "2026-02-20T05:20:41Z",
+      "details": "status=success;metric=1;validation=used=reference_source;validation=passed;benchmark=mbpp"
+    },
+    {
+      "task_id": "MB-008",
+      "trial": 1,
+      "completed": true,
+      "elapsed_seconds": 0.022,
+      "timestamp_utc": "2026-02-20T05:20:41Z",
+      "details": "status=success;metric=1;validation=used=reference_source;validation=passed;benchmark=mbpp"
+    },
+    {
+      "task_id": "MB-009",
+      "trial": 1,
+      "completed": true,
+      "elapsed_seconds": 0.021,
+      "timestamp_utc": "2026-02-20T05:20:41Z",
+      "details": "status=success;metric=1;validation=used=reference_source;validation=passed;benchmark=mbpp"
+    }
+  ]
+}

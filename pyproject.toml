@@ -1,0 +1,12 @@
+[project]
+name = "raysurfer-existing-benchmarks-eval"
+version = "0.1.0"
+description = "Compare baseline coding-agent performance against Raysurfer reuse on existing public benchmarks"
+requires-python = ">=3.12"
+dependencies = [
+  "claude-agent-sdk>=0.1.0",
+  "raysurfer==1.0.0"
+]
+
+[tool.uv]
+package = false

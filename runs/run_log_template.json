@@ -1,0 +1,14 @@
+{
+  "label": "with_raysurfer",
+  "notes": "Recommended: run at least 3 trials per task for stable estimates.",
+  "runs": [
+    {
+      "task_id": "HE-000",
+      "trial": 1,
+      "completed": true,
+      "elapsed_seconds": 2.13,
+      "timestamp_utc": "2026-02-20T00:00:00Z",
+      "details": "status=success;validation=passed"
+    }
+  ]
+}
