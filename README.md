@@ -18,6 +18,7 @@ Primary metric is **3-minute consistency**:
 - `scripts/build_tasks.py`: fetch + normalize benchmark tasks from source datasets
 - `scripts/seed_reference_solutions.py`: upload reference solutions into Raysurfer
 - `scripts/run_benchmark_eval.py`: run baseline or Raysurfer mode and log results
+- `scripts/run_rotating_sdk_eval.py`: rotating prompt-variant eval using Claude SDK baseline vs Raysurfer drop-in
 - `scripts/score_eval.py`: score consistency and compute deltas
 - `scripts/generate_chart.py`: generate benchmark chart SVG
 - `runs/*.json`: run logs and scored summaries
@@ -92,17 +93,28 @@ uv run python scripts/run_benchmark_eval.py \
   --timeout-seconds 180
 ```
 
-## Latest Benchmark (February 20, 2026)
+## Latest Rotating SDK Benchmarks (February 21-22, 2026)
 
-- Raysurfer package version: **1.0.0**
-- Benchmark tasks: **20** (10 HumanEval + 10 MBPP)
-- SLA: **180s** per task
-- Baseline consistency: **0.0%** (0/20)
-- Raysurfer consistency: **100.0%** (20/20)
-- Uplift: **+100.0 percentage points**
-- Run mode: `--raysurfer-source reference`
+All results below were generated with `scripts/run_rotating_sdk_eval.py` plus `scripts/score_eval.py`.
+Each run required cache inspection before execution when `.raysurfer_code` existed, and tracked
+`cache_hit` plus `cache_review` in the run details.
 
-![Existing Benchmarks vs Raysurfer](assets/benchmark_comparison.svg)
+| Run Set | Tasks x Rounds | Model | Max Turns | Task Timeout | Baseline Consistency | Raysurfer Consistency | Delta |
+| --- | --- | --- | ---: | ---: | ---: | ---: | ---: |
+| Mixed existing benchmarks (10 HumanEval + 10 MBPP) | 20 x 2 (40 attempts/mode) | `claude-haiku-4-5-20251001` | 8 | 120s | 45.0% (18/40) | 77.5% (31/40) | +32.5 pp |
+| MBPP showcase (best persistence demo) | 10 x 3 (30 attempts/mode) | `claude-haiku-4-5-20251001` | 8 | 120s | 0.0% (0/30) | 33.3% (10/30) | +33.3 pp |
+
+Raysurfer retrieval behavior on these runs:
+- Mixed existing benchmarks: cache hit **97.5%**, cache review **92.5%**
+- MBPP showcase: cache hit **93.3%**, cache review **90.0%**
+
+Run artifacts:
+- Mixed benchmark baseline: `runs/rotating_sdk_baseline.json`
+- Mixed benchmark Raysurfer: `runs/rotating_sdk_raysurfer.json`
+- Mixed benchmark summary: `runs/rotating_sdk_summary.json`
+- MBPP showcase baseline: `runs/showcase_mbpp_rotating_baseline_t8_r3.json`
+- MBPP showcase Raysurfer: `runs/showcase_mbpp_rotating_raysurfer_t8_r3.json`
+- MBPP showcase summary: `runs/showcase_mbpp_rotating_summary_t8_r3.json`
 
 ## Secret Scanning
 
